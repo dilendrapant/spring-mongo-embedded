@@ -1,0 +1,31 @@
+
+http://localhost:8080/fnp/addUser
+{
+	"id":199,
+	"email":"pant.dilendra@gmail.com",
+	"name":"Dilendra Prasad Pant",
+	"gender":"Male",
+	"products":[
+		{
+			"name":"PD:001-Material001",
+			"quantity":10,
+			"price":500
+			
+		},
+		{
+			"name":"PD:002-Material002",
+			"quantity":3,
+			"price":150
+			
+		}
+		],
+		"address":{
+			"city":"Gurgaon",
+			"state":"Harayana",
+			"pincode":114400
+		}
+	
+}
+
+http://localhost:8080/fnp/getUserByName
+
